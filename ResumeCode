@@ -1,0 +1,352 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Subhankar Pahi} \\ \vspace{1pt}
+    Bhadrak,Odisha \\ \vspace{1pt}
+    \small \href{tel:+91 8338074390}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-8338074390} ~} \href{mailto:shubhankarpahi2@gmail.com
+}{\raisebox{-0.2\height}\faEnvelope\  \underline{shubhankarpahi2@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/subhankarpahi/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/subhankar-pahi-2005}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://subhankarpahi.vercel.app/}{\raisebox{-0.2\height}\faGlobe\ \underline{Personal website}} ~
+\end{center}
+ \vspace{0.5mm}
+
+
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Modern Institute of Technology And Management}{Currently pursuing}
+      {B.tech in Computer Science and Engineering - \textbf{CGPA} - \textbf{xx}}{Bhubaneswar, India}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bhadrak Engineering School And Technology}{2021 -- 2024}
+      {Diploma in Computer Science and Engineering- \textbf{Percentage} - \textbf{82\%}}{Bhadrak, India}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Manjula Manjari Saraswati Shishu Vidya Mandir}{2011 -- 2021}
+      {High School- 10th- \textbf{Percentage} - \textbf{73\%}}{Bhadrak, India}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+\section{SUBJECT EXPERTISE}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Computer Application
+                \item Internet of Things
+                 \item Software Engineering
+                 \item Operating System 
+                 \item E-commerce
+                 \item Mobile Computing
+                \item Computer System Architecture
+                \item Object Oriented Methodology
+                \item Internet And Web Technology
+               \item Data Communication And Computer Network
+                \item Computer Hardware and Maintenance
+                
+                 
+                
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://elibrarybest.com/}{\textbf{\large{\underline{library management system(ACADEMIC PROJECT)}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{html,css,js,bootstrap,php,MySql}}}{2024}
+          \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{The Online Library Management System consists of two modules: Student and Admin. Admin features include managing categories, authors, books, issuing books, and viewing or updating student details. Students can register, view their dashboard, browse books, update profiles, and manage their passwords.}.}}
+            \resumeItem{\textcolor{accent} {\href{https://elibrarybest.com/} {\underline{\normalsize{Live site here}}}}}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+
+              % project2/--------------
+
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://elibrarybest.com/}{\textbf{\large{\underline{Personal Portfolio website}}} \href{https://subhankarpahi.vercel.app/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{html,css,js,github,vercel}}}{2024}
+          \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{Developed a responsive portfolio website using HTML, CSS, and JavaScript.
+            Features include sections for Home, About, Education, Experience, Skills, Projects, Resume, and a "Hire Me" contact option.
+            Implemented a dark and light mode toggle for enhanced user experience.}.}}
+            \resumeItem{\textcolor{accent} {\href{https://subhankarpahi.vercel.app/} {\underline{\normalsize{Live site here}}}}}
+        \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+          
+    % project3
+
+
+\resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://github.com/subhankar-pahi-2005/QuesitonManageMent-System}{\textbf{\large{\underline{Question Management System}}} \href{#}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{html,css,php,mysql}}}{2024}
+          \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{Developed a Question Management System using HTML, CSS, JavaScript, PHP, and MySQL.Enabled admin functionality to add, update, delete,and manage previous year questions.Provided students with the ability to view and download questions seamlessly.}.}}
+            \resumeItem{\textcolor{accent} {\href{https://github.com/subhankar-pahi-2005/QuesitonManageMent-System} {\underline{\normalsize{source code here}}}}}
+        \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+    
+\vspace{-12pt}
+
+
+%
+
+
+
+%-----------EXPERIENCE-----------
+\section{INTERNSHIP}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {1.MathWorks \href{}{\raisebox{-0.1\height}}}{sep 2023 -- sep 2023}
+      {\underline{AI AND ML Internship}}{Remote,India}
+      \resumeItemListStart
+        \resumeItem{\normalsize{\textbf{Learn the basics of MATLAB, essential for beginners.}}}
+        \resumeItem{\normalsize{\textbf{Explore image manipulation and analysis in MATLAB.}}}
+        \resumeItem{\normalsize{\textbf{Understand signal analysis using MATLAB.}}}
+        \resumeItem{\normalsize{\textbf{Get hands-on with machine learning models in MATLAB}}}
+        \resumeItem{\normalsize{\textbf{Apply deep learning techniques for image classification in MATLAB.}}}
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {2.Gauravgo Games Technologies Private Limited \href{}{\raisebox{-0.1\height}}}{nov 2023 -- nov 2023}
+      {\underline{Web Development AND Hosting Internship}}{Remote,India}
+      \resumeItemListStart
+        \resumeItem{\normalsize{\textbf{Assisted in developing and hosting web applications for the company’s platforms.}}}
+        \resumeItem{\normalsize{\textbf{Enhanced skills in web development, hosting, and deployment of web services.}}}
+        \resumeItem{\normalsize{\textbf{Supported the team in improving the performance and scalability of web projects.}}}
+       
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java, C, js, php, sshellscript,}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, DataGrip, Intellij Idea,}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, GitHub,vercel,hostinger,ms office package}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Generic Online Training in Cybersecurity from the Ministry of Electronics and Information Technology}} \hspace{1.6cm}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Cryptography,Cloud compuitng,Machine Learning,nural network course with infosys springboard}} \hspace{2.59cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Data Analytics course with NIIT Foundation in collaboration with Microsoft}} \hspace{2.59cm}
+
+
+ %-----------CERTIFICATIONS---------------
+\section{EXTRACURRICULAR}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Taught Computer application to ICSE students in offline Mode}} \hspace{1.6cm}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Secured 1st rank in the 6th semester and 2nd rank in the 5th semester in the CSE department during my diploma.}} \hspace{2.59cm}
+
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{}} \hspace{2.59cm}
+
+\end{document}
+
+
+
+
+
